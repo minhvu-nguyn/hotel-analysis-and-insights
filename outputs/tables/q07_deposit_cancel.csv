@@ -1,0 +1,10 @@
+﻿deposit_type,reservation_status,count,total,percentage(%)
+No Deposit,Canceled,2377,8728,27.23
+No Deposit,Check-Out,6224,8728,71.31
+No Deposit,No-Show,105,8728,1.2
+No Deposit,Unknown,22,8728,0.25
+Non Refund,Canceled,1244,1259,98.81
+Non Refund,Check-Out,12,1259,0.95
+Non Refund,Unknown,3,1259,0.24
+Refundable,Canceled,5,13,38.46
+Refundable,Check-Out,8,13,61.54

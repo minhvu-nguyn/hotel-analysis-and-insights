@@ -1,0 +1,28 @@
+﻿metric,before,after,note
+Number of rows,10325.0,10000.0,Total number of records
+Number of unique booking_id,10145.0,10000.0,Distinct booking IDs
+Duplicate rows,0.0,0.0,Completely duplicated rows
+row_id,0.0,0.0,Percentage of missing values
+booking_id,0.0,0.0,Percentage of missing values
+hotel,0.0,0.0,Percentage of missing values
+is_canceled,0.0,0.0,Percentage of missing values
+lead_time,0.1,0.31,Percentage of missing values
+arrival_date,0.24,0.49,Percentage of missing values
+stays_in_weekend_nights,0.11,0.2,Percentage of missing values
+stays_in_week_nights,0.1,0.16,Percentage of missing values
+adults,0.12,0.12,Percentage of missing values
+children,0.4,0.3,Percentage of missing values
+babies,0.0,0.05,Percentage of missing values
+meal,0.23,0.0,Percentage of missing values
+country,1.23,1.07,Percentage of missing values
+market_segment,0.03,0.03,Percentage of missing values
+distribution_channel,0.04,0.04,Percentage of missing values
+is_repeated_guest,0.0,0.0,Percentage of missing values
+reserved_room_type,0.0,0.04,Percentage of missing values
+assigned_room_type,0.0,0.0,Percentage of missing values
+deposit_type,0.0,0.0,Percentage of missing values
+customer_type,0.0,0.0,Percentage of missing values
+adr,0.24,0.36,Percentage of missing values
+total_of_special_requests,0.0,0.0,Percentage of missing values
+reservation_status,0.0,0.25,Percentage of missing values
+reservation_status_date,0.25,0.1,Percentage of missing values

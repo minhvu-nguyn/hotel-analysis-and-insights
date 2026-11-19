@@ -1,0 +1,14 @@
+﻿issue_id,field,issue,detection_rule,affected_rows,example_row_ids
+I01,booking_id,booking_id bị trùng sau chuẩn hóa,"Chuẩn hóa tạm thời bằng strip() và upper(), sau đó kiểm tra duplicated(keep=False)",646,R00005; R00009; R00023; R00041; R00084
+I02,23 cột nghiệp vụ,Bản ghi trùng lặp,"Các dòng giống nhau trên toàn bộ 23 cột nghiệp vụ, không tính row_id",360,R00023; R00041; R00144; R00153; R00156
+I03,hotel,Giá trị phân loại không thống nhất hoặc không hợp lệ,Kiểm tra khoảng trắng và so sánh với danh sách giá trị chuẩn,221,R00010; R00054; R00055; R00063; R00074
+I04,meal,Giá trị phân loại không thống nhất hoặc không hợp lệ,Kiểm tra khoảng trắng và so sánh với danh sách giá trị chuẩn,240,R00017; R00036; R00041; R00074; R00078
+I05,market_segment,Giá trị phân loại không thống nhất hoặc không hợp lệ,Kiểm tra khoảng trắng và so sánh với danh sách giá trị chuẩn,141,R00070; R00193; R00225; R00292; R00341
+I06,distribution_channel,Giá trị phân loại không thống nhất hoặc không hợp lệ,Kiểm tra khoảng trắng và so sánh với danh sách giá trị chuẩn,67,R00020; R00091; R00314; R00496; R00546
+I07,deposit_type,Giá trị phân loại không thống nhất hoặc không hợp lệ,Kiểm tra khoảng trắng và so sánh với danh sách giá trị chuẩn,78,R00003; R00220; R00365; R00606; R00722
+I08,customer_type,Giá trị phân loại không thống nhất hoặc không hợp lệ,Kiểm tra khoảng trắng và so sánh với danh sách giá trị chuẩn,81,R00154; R00419; R00459; R00517; R00715
+I09,reservation_status,Giá trị phân loại không thống nhất hoặc không hợp lệ,Kiểm tra khoảng trắng và so sánh với danh sách giá trị chuẩn,119,R00127; R00129; R00141; R00223; R00331
+I10,reserved_room_type,Giá trị phân loại không thống nhất hoặc không hợp lệ,Kiểm tra khoảng trắng và so sánh với danh sách giá trị chuẩn,60,R00033; R00341; R00482; R00961; R01271
+I11,assigned_room_type,Giá trị phân loại không thống nhất hoặc không hợp lệ,Kiểm tra khoảng trắng và so sánh với danh sách giá trị chuẩn,57,R00113; R00314; R00419; R00487; R00827
+I12,arrival_date,Ngày tháng bị trống hoặc không chuyển đổi được,Kiểm tra giá trị trống và chuyển đổi ngày bằng pd.to_datetime(),41,R00030; R00169; R00406; R00681; R00692
+I13,reservation_status_date,Ngày tháng bị trống hoặc không chuyển đổi được,Kiểm tra giá trị trống và chuyển đổi ngày bằng pd.to_datetime(),31,R00141; R00331; R00390; R00499; R00822

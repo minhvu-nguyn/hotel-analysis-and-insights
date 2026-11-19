@@ -1,0 +1,6 @@
+﻿lead_time_group,n_bookings,n_canceled,cancel_rate_pct
+0-7 days,1581,159,10.06
+8-30 days,1537,425,27.65
+31-90 days,2542,946,37.21
+91-180 days,2244,1001,44.61
+Over 180 days,2065,1199,58.06
