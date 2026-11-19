@@ -21,6 +21,8 @@
 ```text
 NhomXX_KhachSan/
 ├── hotel_analysis.ipynb
+├── insight_completed.md
+├── README.md
 ├── data/
 │   └── hotel_bookings_dirty.csv
 ├── tools/
