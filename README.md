@@ -1,4 +1,4 @@
-# NhomXX — Bài thực hành dữ liệu đặt phòng khách sạn
+# Nhom19 — Bài thực hành dữ liệu đặt phòng khách sạn
 
 
 
@@ -24,7 +24,7 @@ NhomXX_KhachSan/
 ├── data/
 │   └── hotel_bookings_dirty.csv
 ├── tools/
-│   └── kiem_tra_nop_bai.py        # nếu đề/gói bài tập có cung cấp
+│   └── kiem_tra_nop_bai.py       
 └── outputs/
     ├── bookings_clean.csv
     ├── monthly_summary.csv
@@ -32,9 +32,9 @@ NhomXX_KhachSan/
     ├── row_lineage.csv
     ├── quality_report.csv
     ├── tables/
-    │   └── 14 tệp CSV bảng phân tích
+    │   └── tệp CSV bảng phân tích
     └── figures/
-        └── 8 tệp PNG biểu đồ
+        └── tệp PNG biểu đồ
 ```
 
 Notebook cũng tìm `hotel_bookings_dirty.csv` ở thư mục gốc nếu không tìm thấy trong `data/`.
@@ -47,7 +47,6 @@ Notebook cũng tìm `hotel_bookings_dirty.csv` ở thư mục gốc nếu không
 4. Nếu dùng bản notebook hiện tại, mở `hotel_analysis_completed.ipynb`. Trước khi nộp, có thể đổi tên thành `hotel_analysis.ipynb` theo yêu cầu của notebook/mẫu bài tập.
 5. Chọn **Restart Kernel and Run All** (hoặc **Runtime → Run all** trên Colab) để chạy từ đầu đến cuối.
 6. Notebook tự tạo thư mục `outputs/`, `outputs/tables/` và `outputs/figures/`, sau đó ghi các kết quả vào những thư mục này.
-7. Kiểm tra các ô xác nhận `✅ / ❌`. Chỉ nộp sau khi toàn bộ kiểm tra cần thiết đạt yêu cầu.
 
 **Thời gian chạy toàn bộ:** Notebook không ghi nhận thời gian chạy tổng thể; cần đo lại trên máy dùng để nộp.
 
@@ -121,10 +120,11 @@ Sau bước hợp nhất, dữ liệu phân tích có **10.000 booking duy nhấ
 -  `row_lineage.csv`
 -  `quality_report.csv`
 
-### Kết quả trong `outputs/tables/` — 14 bảng
+### Kết quả trong `outputs/tables/` — 15 bảng
 
--  `a_missing_survey.csv`
--  `a_issue_catalog.csv`
+-  `missing_survey.csv`
+-  `issue_catalog.csv`
+-  `q_repeat_lead.csv`
 -  `q01_before_after.csv`
 -  `q02_hotel_cancel.csv`
 -  `q03_monthly_arrivals_2016.csv`
@@ -136,9 +136,10 @@ Sau bước hợp nhất, dữ liệu phân tích có **10.000 booking duy nhấ
 -  `q08_adr_stats_by_hotel.csv`
 -  `q09_stay_nights.csv`
 -  `q10_room_change_by_hotel.csv`
+-  `q10_room_change_by_reserved_type.csv`
 
 
-### Kết quả trong `outputs/figures/` — 8 hình
+### Kết quả trong `outputs/figures/` — 9 hình
 
 -  `fig01_hotel_cancel.png`
 -  `fig02_monthly_arrivals_2016.png`
@@ -148,4 +149,4 @@ Sau bước hợp nhất, dữ liệu phân tích có **10.000 booking duy nhấ
 -  `fig06_deposit_cancel.png`
 -  `fig07_adr_hist.png`
 -  `fig08_stay_nights.png`
-
+-  `repeat_lead_boxplot.png`
